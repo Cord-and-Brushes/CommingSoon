@@ -1,6 +1,6 @@
 import ContactUs from "./pages/ContactUs/ContactUs";
 import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/common/Navbar";
 import AboutPage from "./pages/About/AboutPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Products from "./pages/Products/Products";
