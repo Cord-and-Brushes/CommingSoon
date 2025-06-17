@@ -110,14 +110,14 @@ const Hero = () => {
             <div className="absolute w-full h-full top-[-6rem] left-0  flex items-center justify-center">
               <div className="relative w-full max-w-[300px] sm:max-w-[400px] md:max-w-[450px]">
                 <img
-                  src="/images/photo2.jpg"
+                  src="/images/photo1.jpg"
                   alt="box1"
                   className="w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 object-cover rounded-lg shadow-xl rotate-[-3deg] border-4 border-white absolute top-0 left-0"
                 />
                 <img
-                  src="/images/photo1.jpg"
+                  src="/images/photo3.jpg"
                   alt="box2"
-                  className="w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 object-cover rounded-lg shadow-xl rotate-6 border-4 border-white absolute top-14 left-24"
+                  className="w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 object-cover rounded-lg shadow-xl rotate-6 border-4 border-white absolute top-14 left-24 lg:right-8 lg:bottom-8"
                 />
               </div>{" "}
               {/* <div className="hidden md:flex flex-col items-center gap-6 fixed top-1/3 right-0 rounded z-50 bg-gradient-to-r from-purple-600 to-indigo-600 p-2 shadow text-purple-700 hover:text-white transition">
