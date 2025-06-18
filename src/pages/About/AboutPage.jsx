@@ -220,12 +220,12 @@ const AboutPage = () => {
         </section>
 
         {/* Our Team */}
-        <div className=" items-center lg:justify-none">
-          <h2 className="text-left font-dosis text-4xl font-bold mb-4 pb-0 p-4">
+        <div className="items-center lg:justify-none">
+          <h2 className="text-left font-dosis text-4xl font-bold mb-4 pb-4 p-4">
             Our Team
           </h2>
           <div className="flex flex-col justify-center items-center lg:justify-none">
-            <section className="grid grid-cols-1 sm:grid-cols-2 sm:gap-16 md:grid-cols-2 lg:grid-cols-4 gap-y-16 md:gap-x-20 lg:gap-x-20 p-20">
+            <section className="grid grid-cols-1 justify-center items-center sm:grid-cols-2 sm:gap-16 md:grid-cols-2 lg:grid-cols-4 gap-y-16 md:gap-x-20 lg:gap-x-20 p-4 sm:p-8 md:p-12 lg:p-20 max-w-full">
               {teamMembers.map((member) => (
                 <MemberCard
                   image={member.image}
