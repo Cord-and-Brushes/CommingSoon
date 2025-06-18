@@ -93,18 +93,21 @@ const ContactUs = () => {
                   icon={faMapMarkerAlt}
                   className="text-purple-600"
                 />
-                <span>123 Ecommerce St, City, Country</span>
+                <span>
+                  HO: Cord & Brushes, 1st Floor, EWS - 576, Vaishali Nagar,
+                  Bhilai, C.G., Dist - Durg, 490023
+                </span>{" "}
               </li>
               <li className="flex items-center justify-center gap-3">
                 <FontAwesomeIcon icon={faPhone} className="text-purple-600" />
-                <span>+1 (123) 456-7890</span>
+                <span>+91 9109005499</span>
               </li>
               <li className="flex items-center justify-center gap-3">
                 <FontAwesomeIcon
                   icon={faEnvelope}
                   className="text-purple-600"
                 />
-                <span>info@ecommerce.com</span>
+                <span>info@cordandbrushes.com</span>
               </li>
             </ul>
 

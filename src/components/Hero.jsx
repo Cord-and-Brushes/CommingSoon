@@ -25,7 +25,7 @@ const Hero = () => {
                 <span className="absolute -inset-3 rounded-full border-4 border-purple-300 z-0"></span>
               </span>
             </h1>
-            <p className="text-sm sm:text-base text-gray-600 mb-6 max-w-md mx-auto md:mx-0 ">
+            <p className="md:text-center text-sm sm:text-base text-gray-600 mb-6 max-w-md mx-auto">
               “Art That Connects – From Our Hands to Your Home.”
             </p>
 

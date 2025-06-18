@@ -13,40 +13,25 @@ import MemberCard from "../../components/AboutPage/MemberCard/MemberCard";
 const AboutPage = () => {
   const teamMembers = [
     {
-      name: "John Doe",
-      designation: "CEO",
-      image: "https://i.postimg.cc/9fCX4GC4/John-Smiths.jpg",
-      linkedin: "https://www.linkedin.com/in/aditya--sahu89/",
-    },
-    {
-      name: "Jane Smith",
-      designation: "CTO",
-      image: "https://i.postimg.cc/9fCX4GC4/John-Smiths.jpg",
-      linkedin: "https://www.linkedin.com/in/aditya--sahu89/",
-    },
-    {
-      name: "Jane Smith",
+      name: "Aditya Kumar Sahu",
       designation: "Full Stack Developer",
       image: "https://i.postimg.cc/9fCX4GC4/John-Smiths.jpg",
-      linkedin: "https://www.linkedin.com/in/aditya--sahu89/",
+      /* linkedin: "https://www.linkedin.com/in/aditya--sahu89/", */
     },
     {
-      name: "Jane Smith",
-      designation: "Marketing Head",
+      name: "Himanshu Maurya",
+      designation: "Digital Marketing Executive",
       image: "https://i.postimg.cc/9fCX4GC4/John-Smiths.jpg",
-      linkedin: "https://www.linkedin.com/in/aditya--sahu89/",
     },
     {
-      name: "Jane Smith",
-      designation: "BDE",
+      name: "Eshita Choudhary",
+      designation: "Artist",
       image: "https://i.postimg.cc/9fCX4GC4/John-Smiths.jpg",
-      linkedin: "https://www.linkedin.com/in/aditya--sahu89/",
     },
     {
-      name: "Jane Smith",
-      designation: "HR Lead",
+      name: "Khushi Sonone",
+      designation: "Artist",
       image: "https://i.postimg.cc/9fCX4GC4/John-Smiths.jpg",
-      linkedin: "https://www.linkedin.com/in/aditya--sahu89/",
     },
     // Add more team members here
   ];
@@ -104,17 +89,17 @@ const AboutPage = () => {
 
         {/* Our Founder */}
         <section className="text-left mb-12 font-cat px-4">
-          <h2 className="text-4xl font-dosis font-bold mb-4">Our Founder</h2>
+          <h2 className="text-4xl font-dosis font-bold mb-4">Our Leaders</h2>
           <div className="flex flex-col-reverse lg:flex-row-reverse gap-x-2">
             <div className="text-md text-justify w-full lg:w-3/5 flex flex-col justify-start items-start pt-4">
               <div className="ring-2 ring-black rounded-md p-2">
                 <h1 className="text-2xl pl-2 font-dosis font-semibold">
                   Kalpana Mahanti
                 </h1>
-                <h2 className="text-xl pl-2 font-dosis font-medium">
-                  Founder & CEO
-                </h2>
-                <div className="mb-4 pl-2 gap-x-3 flex text-[18px] mt-2">
+                <h3 className="text-gray-400 pl-2 font-dosis font-medium">
+                  Founder & Lead Artist
+                </h3>
+                {/*  <div className="mb-4 pl-2 gap-x-3 flex text-[18px] mt-2">
                   <Link to="https://www.linkedin.com/in/aditya--sahu89/">
                     <FaLinkedin className="hover:text-[#2d49ff]" />
                   </Link>
@@ -127,7 +112,7 @@ const AboutPage = () => {
                   <Link to="mailto:example@gmail.com">
                     <FaEnvelope className="hover:text-red-600" />
                   </Link>
-                </div>
+                </div> */}
                 <div>
                   <div className="flex justify-start">
                     <RiDoubleQuotesL className="text-[20px]" />
@@ -161,7 +146,7 @@ const AboutPage = () => {
                 <img
                   src="https://i.postimg.cc/mgv5wrxW/team-h-11-8-1.png"
                   alt="3D Hover"
-                  className=""
+                  className="border-5 rounded-md"
                 />
               </div>
             </div>
@@ -170,17 +155,17 @@ const AboutPage = () => {
 
         {/* Our Co-Founder */}
         <section className="text-left mb-12 font-cat px-4">
-          <h2 className="text-4xl font-dosis font-bold mb-4">Our Co-Founder</h2>
+          <h2 className="text-4xl font-dosis font-bold mb-4"></h2>
           <div className="flex flex-col-reverse lg:flex-row gap-x-2">
             <div className="text-md text-justify w-full lg:w-3/5 flex flex-col justify-start items-start pt-4">
               <div className="ring-2 ring-black rounded-md p-2">
                 <h1 className="text-2xl pl-2 font-dosis font-semibold">
                   Abhishek Mahanti
                 </h1>
-                <h2 className="text-xl pl-2 font-dosis font-medium">
-                  Co-Founder & CMO
+                <h2 className="pl-2 font-dosis text-gray-400 font-medium">
+                  Director and CEO{" "}
                 </h2>
-                <div className="mb-4 pl-2 gap-x-3 flex text-[18px] mt-2">
+                {/*  <div className="mb-4 pl-2 gap-x-3 flex text-[18px] mt-2">
                   <Link to="https://www.linkedin.com/in/aditya--sahu89/">
                     <FaLinkedin className="hover:text-[#2d49ff]" />
                   </Link>
@@ -193,7 +178,7 @@ const AboutPage = () => {
                   <Link to="mailto:example@gmail.com">
                     <FaEnvelope className="hover:text-red-600" />
                   </Link>
-                </div>
+                </div> */}
                 <div>
                   <div className="flex justify-start">
                     <RiDoubleQuotesL className="text-[20px]" />
@@ -227,7 +212,7 @@ const AboutPage = () => {
                 <img
                   src="https://i.postimg.cc/9fCX4GC4/John-Smiths.jpg"
                   alt="3D Hover"
-                  className="w-10/12 object-cover"
+                  className="w-10/12 object-cover border-5 rounded-md"
                 />
               </div>
             </div>
@@ -240,7 +225,7 @@ const AboutPage = () => {
             Our Team
           </h2>
           <div className="flex flex-col justify-center items-center lg:justify-none">
-            <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-20 lg:gap-x-20 p-20">
+            <section className="grid grid-cols-1 sm:grid-cols-2 sm:gap-16 md:grid-cols-2 lg:grid-cols-4 gap-y-16 md:gap-x-20 lg:gap-x-20 p-20">
               {teamMembers.map((member) => (
                 <MemberCard
                   image={member.image}
