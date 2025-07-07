@@ -29,7 +29,7 @@ const Hero = () => {
               “Art That Connects – From Our Hands to Your Home.”
             </p>
 
-            <CountdownTimer targetDate="2025-07-01T00:00:00" />
+            <CountdownTimer targetDate="2025-07-16T00:00:00" />
 
             <div className="mt-6">
               <NavLink to="/products">

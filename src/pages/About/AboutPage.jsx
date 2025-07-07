@@ -51,7 +51,6 @@ const AboutPage = () => {
             college selection process is simplified and informed.
           </p>
         </section> */}
-
         {/* Our Story */}
         <section className="text-left mb-12 font-cat px-4">
           <h2 className="text-4xl font-dosis font-bold mb-4">Our Story</h2>
@@ -73,12 +72,12 @@ const AboutPage = () => {
                   not just knowledge, but also aspirations and determination,
                   empowering them to craft their unique success stories.
                 </p>
-                <div className="flex justify-end">
+                <div className="flex justify-center">
                   <RiDoubleQuotesR className="text-[20px]" />
                 </div>
               </div>
             </div>
-            <div className="w-full lg:w-3/5 pl-10 p-6">
+            <div className="w-full lg:w-3/5 pl-10 p-6 flex justify-center items-center">
               <img
                 src="https://i.postimg.cc/25hJHbb0/annie-spratt-Tywjk-DHf0-Ps-unsplash.jpg"
                 className="rounded-md h-full w-full"
@@ -86,7 +85,6 @@ const AboutPage = () => {
             </div>
           </div>
         </section>
-
         {/* Our Founder */}
         <section className="text-left mb-12 font-cat px-4">
           <h2 className="text-4xl font-dosis font-bold mb-4">Our Leaders</h2>
@@ -152,7 +150,6 @@ const AboutPage = () => {
             </div>
           </div>
         </section>
-
         {/* Our Co-Founder */}
         <section className="text-left mb-12 font-cat px-4">
           <h2 className="text-4xl font-dosis font-bold mb-4"></h2>
@@ -218,7 +215,6 @@ const AboutPage = () => {
             </div>
           </div>
         </section>
-
         {/* Our Team */}
         <div className="items-center lg:justify-none">
           <h2 className="text-left font-dosis text-4xl font-bold mb-4 pb-4 p-4">
