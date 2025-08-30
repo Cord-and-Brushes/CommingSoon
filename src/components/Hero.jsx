@@ -6,6 +6,7 @@ import {
   FaWhatsapp,
   FaInstagram,
   FaLinkedinIn,
+  FaYoutube,
 } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
@@ -156,7 +157,7 @@ const Hero = () => {
               </div> */}
               <div className="hidden md:flex flex-col items-center gap-6 fixed top-1/3 right-0 rounded z-50 bg-gradient-to-r from-purple-600 to-indigo-600 p-2 shadow text-white">
                 <a
-                  href="https://www.facebook.com/people/Cord-and-Brushes/100091734360086/?mibextid=hu50Ix"
+                  href="https://www.facebook.com/share/15sdyAg4zu/?mibextid=wwXIfr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white text-white transition transform hover:scale-110"
@@ -164,7 +165,7 @@ const Hero = () => {
                   <FaFacebookF size={20} />
                 </a>
                 <a
-                  href="https://wa.me/+919109005499" // replace with actual number
+                  href="https://wa.me/+917067552830"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white text-white transition transform hover:scale-110"
@@ -172,7 +173,7 @@ const Hero = () => {
                   <FaWhatsapp size={20} />
                 </a>
                 <a
-                  href="https://www.instagram.com/cord_brushes/?igsh=bjAzZHJqOWt6OWxn#"
+                  href="https://www.instagram.com/cord_brushes?igsh=bjAzZHJqOWt6OWxn"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white text-white transition transform hover:scale-110"
@@ -186,6 +187,14 @@ const Hero = () => {
                   className="hover:text-white text-white transition transform hover:scale-110"
                 >
                   <FaLinkedinIn size={20} />
+                </a>
+                <a
+                  href="https://youtube.com/@cordbrushes?si=fErMl1RVN3aZPO5p"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white text-white transition transform hover:scale-110"
+                >
+                  <FaYoutube size={20} />
                 </a>
               </div>
             </div>

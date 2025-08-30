@@ -38,7 +38,7 @@ const CountdownTimer = ({ targetDate }) => {
           fontSize: { xs: "1.25rem", sm: "1.5rem", md: "1.75rem" },
         }}
       >
-        🚀 Launching In:
+        🚀 Launching Soon
       </Typography>
 
       <Box

@@ -9,13 +9,14 @@ import {
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import MemberCard from "../../components/AboutPage/MemberCard/MemberCard";
+import aditya from "../../../public/images/Aditya.jpg";
 
 const AboutPage = () => {
   const teamMembers = [
     {
       name: "Aditya Kumar Sahu",
       designation: "Full Stack Developer",
-      image: "https://i.postimg.cc/9fCX4GC4/John-Smiths.jpg",
+      image: aditya,
       /* linkedin: "https://www.linkedin.com/in/aditya--sahu89/", */
     },
     {
@@ -23,56 +24,50 @@ const AboutPage = () => {
       designation: "Digital Marketing Executive",
       image: "https://i.postimg.cc/9fCX4GC4/John-Smiths.jpg",
     },
-    {
-      name: "Eshita Choudhary",
-      designation: "Artist",
-      image: "https://i.postimg.cc/9fCX4GC4/John-Smiths.jpg",
-    },
-    {
-      name: "Khushi Sonone",
-      designation: "Artist",
-      image: "https://i.postimg.cc/9fCX4GC4/John-Smiths.jpg",
-    },
-    // Add more team members here
   ];
 
   return (
     <div className="relative">
-      {/* Banner Image Section */}
-      {/* <Banner /> */}
       <div className="container mx-auto px-4 py-12">
-        {/* Our Mission */}
-        {/* <section className="text-left mb-12 font-cat bg-white p-4">
-          <h2 className="text-4xl font-dosis font-bold mb-4">Our Mission</h2>
-          <p className="text-lg">
-            To be the premier education portal, we strive to provide the most
-            interactive user interface and rigorously validated content. Our
-            mission is to support students comprehensively, ensuring their
-            college selection process is simplified and informed.
-          </p>
-        </section> */}
         {/* Our Story */}
         <section className="text-left mb-12 font-cat px-4">
           <h2 className="text-4xl font-dosis font-bold mb-4">Our Story</h2>
-          <div className="flex flex-col-reverse lg:flex-row gap-x-4">
-            <div className="text-md text-justify w-full lg:w-2/5 flex justify-start items-start pt-4">
+          <div className="flex flex-col-reverse lg:flex-row gap-x-1">
+            <div className="text-md text-justify w-full lg:w-3/5 flex justify-start items-start pt-4">
               <div className="ring-2 ring-black rounded-md p-2">
                 <div className="flex justify-start">
                   <RiDoubleQuotesL className="text-[20px]" />
                 </div>
-                <p className="p-6 text-[18px]">
-                  At The Career Valley, we envision creating a student-friendly
-                  ecosystem where every individual finds a ladder to climb the
-                  stairs of success. Our mission is to provide new minds with
-                  not just knowledge, but also aspirations and determination,
-                  empowering them to craft their unique success stories.At The
-                  Career Valley, we envision creating a student-friendly
-                  ecosystem where every individual finds a ladder to climb the
-                  stairs of success. Our mission is to provide new minds with
-                  not just knowledge, but also aspirations and determination,
-                  empowering them to craft their unique success stories.
+                <p className="p-6 text-[14px]">
+                  Welcome to Cord & Brushes – where creativity comes to life
+                  through color, canvas, and community. <br />
+                  We are a passionate art studio dedicated to inspiring
+                  creativity in people of all ages and skill levels. Whether
+                  you're picking up a brush for the first time or looking to
+                  refine your technique, our classes and workshops are designed
+                  to spark imagination and build confidence. Founded by artists,
+                  for artists, Cord & Brushes offers a warm, welcoming space to
+                  explore your artistic journey. From painting and drawing to
+                  mixed media and themed workshops, our sessions are guided by
+                  experienced instructors who believe that art is for everyone.{" "}
+                  <br />
+                  <br />
+                  🎨 Art Classes – Weekly sessions for kids, teens, and adults
+                  covering foundational skills and creative techniques. <br />
+                  🖌 Workshops – Themed, one-day experiences where you can
+                  explore new mediums or create something beautiful in a relaxed
+                  setting.
+                  <br /> 👩‍🎨 Private Sessions & Events – Custom art events for
+                  birthdays, team-building, or personal coaching.
+                  <br /> 🖼 Original Artwork – Explore and purchase unique pieces
+                  created by our in-house artists. <br />
+                  <br />
+                  At Cord & Brushes, we believe art is more than just a
+                  skill—it's a way to express, connect, and grow. Whether you're
+                  here to learn, create, or simply get inspired, you'll find a
+                  supportive space where creativity is always encouraged.
                 </p>
-                <div className="flex justify-center">
+                <div className="flex justify-end">
                   <RiDoubleQuotesR className="text-[20px]" />
                 </div>
               </div>
@@ -97,41 +92,46 @@ const AboutPage = () => {
                 <h3 className="text-gray-400 pl-2 font-dosis font-medium">
                   Founder & Lead Artist
                 </h3>
-                {/*  <div className="mb-4 pl-2 gap-x-3 flex text-[18px] mt-2">
-                  <Link to="https://www.linkedin.com/in/aditya--sahu89/">
-                    <FaLinkedin className="hover:text-[#2d49ff]" />
-                  </Link>
-                  <Link to="https://www.facebook.com">
-                    <FaFacebook className="hover:text-[#3470fb]" />
-                  </Link>
-                  <Link to="https://www.instagram.com">
-                    <FaInstagram className="hover:text-[#ea3773]" />
-                  </Link>
-                  <Link to="mailto:example@gmail.com">
-                    <FaEnvelope className="hover:text-red-600" />
-                  </Link>
-                </div> */}
+
                 <div>
                   <div className="flex justify-start">
                     <RiDoubleQuotesL className="text-[20px]" />
                   </div>
-                  <p className="p-6 text-[18px]">
-                    Imagine a student, full of dreams and ready to take on the
-                    world, standing at the bottom of a big staircase. Each step
-                    is a new achievement, a challenge, and a chance to grow.
-                    This staircase is like the path to success, and at The
-                    Career Valley, we're here to help every student climb it
-                    with confidence. Our goal is to create a place where
-                    students can learn, be inspired, and use that inspiration to
-                    reach their goals. We believe education is about growing
-                    your mind, finding what you love, and having the courage to
-                    make your own path. As we start this journey together, we're
-                    inviting you to join us in making education better. Let's
-                    build bridges to knowledge, dreams, and possibilities, and
-                    together, let's create a legacy of success that will inspire
-                    future generations. Welcome to a place where every dream has
-                    a purpose, and every student is the architect of their own
-                    destiny.
+                  <p className="p-6 text-[14px]">
+                    Greetings,
+                    <br />
+                    <br /> I'm Kalpana Mahanti, an Artist/Art instructor and the
+                    Founder of Cord & Brushes. Despite starting my career in
+                    software engineering after completing my B.Tech, my passion
+                    for art has always been present since childhood. Though I
+                    had to set it aside for studies and work, the pandemic
+                    provided me with the opportunity to reconnect with my
+                    artistic side while working from home.
+                    <br />
+                    <br />
+                    During the lockdown, with limited art supplies, I resorted
+                    to basic DIY projects, reigniting my love for art. In
+                    September 2022, I took the leap, leaving my IT job to
+                    establish Cord & Brushes, a virtual venture on social media,
+                    alongside my brother Abhishek Mahanti (Co-Founder of Cord &
+                    Brushes). The response has been overwhelming, allowing us to
+                    offer workshops on various art forms at affordable prices,
+                    making art education accessible to all.
+                    <br />
+                    <br />
+                    Our mission is simple: to provide quality art education to
+                    everyone, ensuring that anyone with a desire to learn can
+                    pursue their passion without financial constraints.
+                    <br />
+                    <br /> I owe this achievement to the unwavering support of
+                    Abhishek Mahanti (Brother), Sanjib Mahapatra (Husband),
+                    Parents, Friends, and Family, whose love and encouragement
+                    have been constant pillars of strength.
+                    <br />
+                    <br />
+                    Warm Regards,
+                    <br />
+                    Artist/Art Instructor Founder
                   </p>
                   <div className="flex justify-end">
                     <RiDoubleQuotesR className="text-[20px]" />
@@ -142,7 +142,7 @@ const AboutPage = () => {
             <div className="w-full lg:w-2/5 pl-0 p-0 lg:p-4">
               <div className="cards flex justify-center items-center">
                 <img
-                  src="https://i.postimg.cc/mgv5wrxW/team-h-11-8-1.png"
+                  src="./images/kalpana.jpg"
                   alt="3D Hover"
                   className="border-5 rounded-md"
                 />
@@ -162,41 +162,45 @@ const AboutPage = () => {
                 <h2 className="pl-2 font-dosis text-gray-400 font-medium">
                   Director and CEO{" "}
                 </h2>
-                {/*  <div className="mb-4 pl-2 gap-x-3 flex text-[18px] mt-2">
-                  <Link to="https://www.linkedin.com/in/aditya--sahu89/">
-                    <FaLinkedin className="hover:text-[#2d49ff]" />
-                  </Link>
-                  <Link to="https://www.facebook.com">
-                    <FaFacebook className="hover:text-[#3470fb]" />
-                  </Link>
-                  <Link to="https://www.instagram.com">
-                    <FaInstagram className="hover:text-[#ea3773]" />
-                  </Link>
-                  <Link to="mailto:example@gmail.com">
-                    <FaEnvelope className="hover:text-red-600" />
-                  </Link>
-                </div> */}
+
                 <div>
                   <div className="flex justify-start">
                     <RiDoubleQuotesL className="text-[20px]" />
                   </div>
-                  <p className="p-6 text-[18px]">
-                    Imagine a student, full of dreams and ready to take on the
-                    world, standing at the bottom of a big staircase. Each step
-                    is a new achievement, a challenge, and a chance to grow.
-                    This staircase is like the path to success, and at The
-                    Career Valley, we're here to help every student climb it
-                    with confidence. Our goal is to create a place where
-                    students can learn, be inspired, and use that inspiration to
-                    reach their goals. We believe education is about growing
-                    your mind, finding what you love, and having the courage to
-                    make your own path. As we start this journey together, we're
-                    inviting you to join us in making education better. Let's
-                    build bridges to knowledge, dreams, and possibilities, and
-                    together, let's create a legacy of success that will inspire
-                    future generations. Welcome to a place where every dream has
-                    a purpose, and every student is the architect of their own
-                    destiny.
+                  <p className="p-6 text-[14px]">
+                    Greetings,
+                    <br />
+                    <br /> I'm Kalpana Mahanti, an Artist/Art instructor and the
+                    Founder of Cord & Brushes. Despite starting my career in
+                    software engineering after completing my B.Tech, my passion
+                    for art has always been present since childhood. Though I
+                    had to set it aside for studies and work, the pandemic
+                    provided me with the opportunity to reconnect with my
+                    artistic side while working from home.
+                    <br />
+                    <br />
+                    During the lockdown, with limited art supplies, I resorted
+                    to basic DIY projects, reigniting my love for art. In
+                    September 2022, I took the leap, leaving my IT job to
+                    establish Cord & Brushes, a virtual venture on social media,
+                    alongside my brother Abhishek Mahanti (Co-Founder of Cord &
+                    Brushes). The response has been overwhelming, allowing us to
+                    offer workshops on various art forms at affordable prices,
+                    making art education accessible to all.
+                    <br />
+                    <br />
+                    Our mission is simple: to provide quality art education to
+                    everyone, ensuring that anyone with a desire to learn can
+                    pursue their passion without financial constraints. I owe
+                    this achievement to the unwavering support of Abhishek
+                    Mahanti (Brother), Sanjib Mahapatra (Husband), Parents,
+                    Friends, and Family, whose love and encouragement have been
+                    constant pillars of strength.
+                    <br />
+                    <br />
+                    Warm Regards,
+                    <br />
+                    Artist/Art Instructor Founder
                   </p>
                   <div className="flex justify-end">
                     <RiDoubleQuotesR className="text-[20px]" />
@@ -207,7 +211,7 @@ const AboutPage = () => {
             <div className="w-full lg:w-2/5 pl-0 p-0 lg:p-4">
               <div className="cards flex justify-center items-center">
                 <img
-                  src="https://i.postimg.cc/9fCX4GC4/John-Smiths.jpg"
+                  src="./images/abhishek.jpg"
                   alt="3D Hover"
                   className="w-10/12 object-cover border-5 rounded-md"
                 />
