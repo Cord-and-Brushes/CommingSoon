@@ -170,37 +170,32 @@ const AboutPage = () => {
                   <p className="p-6 text-[14px]">
                     Greetings,
                     <br />
-                    <br /> I'm Kalpana Mahanti, an Artist/Art instructor and the
-                    Founder of Cord & Brushes. Despite starting my career in
-                    software engineering after completing my B.Tech, my passion
-                    for art has always been present since childhood. Though I
-                    had to set it aside for studies and work, the pandemic
-                    provided me with the opportunity to reconnect with my
-                    artistic side while working from home.
+                    <br />
+                    Welcome to Cord & Brushes At Cord & Brushes, creativity and
+                    craftsmanship come together to create more than just
+                    products—we craft experiences that resonate. As Director &
+                    CEO, my vision has always been to design pieces that are not
+                    only beautiful, but meaningful—items that tell stories,
+                    spark emotion, and leave lasting impressions.
                     <br />
                     <br />
-                    During the lockdown, with limited art supplies, I resorted
-                    to basic DIY projects, reigniting my love for art. In
-                    September 2022, I took the leap, leaving my IT job to
-                    establish Cord & Brushes, a virtual venture on social media,
-                    alongside my brother Abhishek Mahanti (Co-Founder of Cord &
-                    Brushes). The response has been overwhelming, allowing us to
-                    offer workshops on various art forms at affordable prices,
-                    making art education accessible to all.
+                    What sets us apart is our dedication to detail. Each piece
+                    in our collection is thoughtfully curated and handcrafted
+                    with precision, passion, and a personal touch. Whether it’s
+                    a unique gift or a statement of artistic expression, our
+                    creations reflect a deep commitment to quality and
+                    authenticity.
                     <br />
                     <br />
-                    Our mission is simple: to provide quality art education to
-                    everyone, ensuring that anyone with a desire to learn can
-                    pursue their passion without financial constraints. I owe
-                    this achievement to the unwavering support of Abhishek
-                    Mahanti (Brother), Sanjib Mahapatra (Husband), Parents,
-                    Friends, and Family, whose love and encouragement have been
-                    constant pillars of strength.
+                    Driven by innovation and guided by purpose, Cord & Brushes
+                    is more than a brand—it’s a celebration of artistry,
+                    individuality, and the joy of giving. We’re proud to be part
+                    of life’s special moments, one handcrafted piece at a time.
                     <br />
                     <br />
                     Warm Regards,
                     <br />
-                    Artist/Art Instructor Founder
+                    Director & CEO, Cord & Brushes{" "}
                   </p>
                   <div className="flex justify-end">
                     <RiDoubleQuotesR className="text-[20px]" />
